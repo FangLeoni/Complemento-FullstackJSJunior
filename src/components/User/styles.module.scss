@@ -1,0 +1,47 @@
+.userContainer {
+  width: 98vw;
+  height: 35vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  flex-shrink: 0;
+
+  border: 3px solid #1A2564;
+  border-radius: 5px;
+
+  &.selected {
+    border: 3px solid #00DA8B;
+  }
+
+
+  .row {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #1A2564;
+
+    p{
+      width: 75%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+  }
+}
+
+.separator {
+  width: 90%;
+  height: 2vh;
+
+  background-color: #1A2564;
+
+  margin: 1rem 0;
+
+  flex-shrink: 0;
+}

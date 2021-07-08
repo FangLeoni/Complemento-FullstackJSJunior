@@ -1,0 +1,50 @@
+.popUpContainer {
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  z-index: 20;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f2f2f2a1;
+
+  .popUpOptions {
+
+    height: 20vh;
+    width: 70vw;
+
+    background-color: #2B3364;
+    
+    border: 2px solid #1A2564;
+    border-radius: 5px;
+
+    // Link Tag
+    a {
+      text-decoration: none;
+      
+    }
+    
+    p {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      color: #F2F2F2;
+
+      transition: all 0.5s;
+      &:hover {
+        background-color: #1A2564;
+      }
+
+      &:first-child {
+        border-bottom: 2px #1A2564;
+      }
+    }
+
+  }
+}
